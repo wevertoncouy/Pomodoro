@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/pomodoro.css">
+    <title>Pomodoro</title>
+   
+</head>
+
+<body>
+    <h1>Pomodoro</h1>
+   
+    <div id="btnMenu">
+        <button id="btnIniciar">Iniciar</button>
+        <span id="message"></span>
+       
+        <button id="btnReiniciar">Reiniciar</button>
+
+        <button id="btnParar">Parar</button>
+    </div> 
+
+    <div class="relogio">
+        <p>
+            <span id="minutos">25</span>:<span id="segundos">00</span>
+        </p>
+      </div>
+
+    <div id="container">
+        <div class="quadro" id="pomodoro">pomodoro</div><!--pomodoro 25 minutos-->
+        <div class="quadro" id="intervalo">Intervalo</div><!--tempo 5 minutos-->
+        <div class="quadro" id="longo"> longo</div><!-- tempo 15 -->
+    </div>
+    
+    <script type="text/javascript" src="js/pomodoro.js"></script>
+</body>
+
+</html>
