@@ -65,7 +65,7 @@ function iniciar() {
 
 //
 
-// ---------------btn------------------
+// ---------------btn--------------------
 btnIniciar.addEventListener("click", () => {
     iniciar();
 });
